@@ -1,0 +1,233 @@
+
+XSMP opening connection
+Opening the X display took 0 msec
+Opening the X display took 2 msec
+XSMP handling save-yourself request
+
+could not source ".vimrc"
+                         E484: Can't open file .vimrc
+
+chdir(/home/bradleyd)
+fchdir() to previous dir
+sourcing "/home/bradleyd/.vimrc"
+Searching for "autoload/pathogen.vim" in "/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/autoload/pathogen.vim"
+chdir(/home/bradleyd/.vim/autoload)
+fchdir() to previous dir
+line 2: sourcing "/home/bradleyd/.vim/autoload/pathogen.vim"
+finished sourcing /home/bradleyd/.vim/autoload/pathogen.vim
+continuing in /home/bradleyd/.vimrc
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 3: sourcing "/usr/share/vim/vim73/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/syntax/synload.vim"
+Searching for "/home/bradleyd/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim73/syntax/synload.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim73/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/syntax/syncolor.vim"
+Searching for "/home/bradleyd/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /usr/share/vim/vim73/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/home/bradleyd/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/synload.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "filetype.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/filetype.vim"
+Searching for "/home/bradleyd/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/ftdetect/*.vim"
+Searching for "/home/bradleyd/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/home/bradleyd/.vim/after/ftdetect/*.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/bradleyd/.vim/after/filetype.vim"
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/scripts.vim"
+Searching for "/home/bradleyd/.vim/scripts.vim"
+Searching for "/usr/share/vim/vimfiles/scripts.vim"
+Searching for "/usr/share/vim/vim73/scripts.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 0: sourcing "/usr/share/vim/vim73/scripts.vim"
+finished sourcing /usr/share/vim/vim73/scripts.vim
+continuing in BufRead Auto commands for "*"
+Searching for "/usr/share/vim/vimfiles/after/scripts.vim"
+Searching for "/home/bradleyd/.vim/after/scripts.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+finished sourcing /usr/share/vim/vim73/syntax/syntax.vim
+continuing in /home/bradleyd/.vimrc
+Searching for "filetype.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/filetype.vim"
+Searching for "/home/bradleyd/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim73/filetype.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /home/bradleyd/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/home/bradleyd/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/ftplugin.vim"
+Searching for "/home/bradleyd/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim73/ftplugin.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim73/ftplugin.vim"
+finished sourcing /usr/share/vim/vim73/ftplugin.vim
+continuing in /home/bradleyd/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/home/bradleyd/.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/indent.vim"
+Searching for "/home/bradleyd/.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim73/indent.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim73/indent.vim"
+finished sourcing /usr/share/vim/vim73/indent.vim
+continuing in /home/bradleyd/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/home/bradleyd/.vim/after/indent.vim"
+finished sourcing /home/bradleyd/.vimrc
+
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+                        "/usr/share/vim/vim73/syntax/pdf.vim" 
+"/usr/share/vim/vim73/syntax/pdf.vim" [readonly] 73L, 3539C
+Reading viminfo file "/home/bradleyd/.viminfo" marks
+Executing BufRead Auto commands for "*.vim"
+autocommand setf vim
+
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+Searching for "syntax/vim.vim syntax/vim/*.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/syntax/vim.vim"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/syntax/vim/*.vim"
+Searching for "/home/bradleyd/.vim/syntax/vim.vim"
+Searching for "/home/bradleyd/.vim/syntax/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/vim.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/vim/*.vim"
+Searching for "/usr/share/vim/vim73/syntax/vim.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 22: sourcing "/usr/share/vim/vim73/syntax/vim.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 569: sourcing "/usr/share/vim/vim73/syntax/lua.vim"
+finished sourcing /usr/share/vim/vim73/syntax/lua.vim
+continuing in /usr/share/vim/vim73/syntax/vim.vim
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 591: sourcing "/usr/share/vim/vim73/syntax/perl.vim"
+finished sourcing /usr/share/vim/vim73/syntax/perl.vim
+continuing in /usr/share/vim/vim73/syntax/vim.vim
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 613: sourcing "/usr/share/vim/vim73/syntax/ruby.vim"
+finished sourcing /usr/share/vim/vim73/syntax/ruby.vim
+continuing in /usr/share/vim/vim73/syntax/vim.vim
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 634: sourcing "/usr/share/vim/vim73/syntax/python.vim"
+finished sourcing /usr/share/vim/vim73/syntax/python.vim
+continuing in /usr/share/vim/vim73/syntax/vim.vim
+finished sourcing /usr/share/vim/vim73/syntax/vim.vim
+continuing in function <SNR>4_SynSet
+Searching for "/usr/share/vim/vim73/syntax/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/vim.vim"
+Searching for "/usr/share/vim/vimfiles/after/syntax/vim/*.vim"
+Searching for "/home/bradleyd/.vim/after/syntax/vim.vim"
+Searching for "/home/bradleyd/.vim/after/syntax/vim/*.vim"
+Executing FileType Auto commands for "*"
+autocommand call s:LoadFTPlugin()
+
+Searching for "ftplugin/vim.vim ftplugin/vim_*.vim ftplugin/vim/*.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/ftplugin/vim.vim"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/ftplugin/vim_*.vim"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/ftplugin/vim/*.vim"
+Searching for "/home/bradleyd/.vim/ftplugin/vim.vim"
+Searching for "/home/bradleyd/.vim/ftplugin/vim_*.vim"
+Searching for "/home/bradleyd/.vim/ftplugin/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/vim.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/vim_*.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin/vim/*.vim"
+Searching for "/usr/share/vim/vim73/ftplugin/vim.vim"
+chdir(/usr/share/vim/vim73/ftplugin)
+fchdir() to previous dir
+line 17: sourcing "/usr/share/vim/vim73/ftplugin/vim.vim"
+finished sourcing /usr/share/vim/vim73/ftplugin/vim.vim
+continuing in function <SNR>8_LoadFTPlugin
+Searching for "/usr/share/vim/vim73/ftplugin/vim_*.vim"
+Searching for "/usr/share/vim/vim73/ftplugin/vim/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/vim.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/vim_*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftplugin/vim/*.vim"
+Searching for "/home/bradleyd/.vim/after/ftplugin/vim.vim"
+Searching for "/home/bradleyd/.vim/after/ftplugin/vim_*.vim"
+Searching for "/home/bradleyd/.vim/after/ftplugin/vim/*.vim"
+Executing FileType Auto commands for "*"
+autocommand call s:LoadIndent()
+
+Searching for "indent/vim.vim" in "/home/bradleyd/.vim/bundle/vim-rails,/home/bradleyd/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/bradleyd/.vim/after"
+Searching for "/home/bradleyd/.vim/bundle/vim-rails/indent/vim.vim"
+Searching for "/home/bradleyd/.vim/indent/vim.vim"
+Searching for "/usr/share/vim/vimfiles/indent/vim.vim"
+Searching for "/usr/share/vim/vim73/indent/vim.vim"
+chdir(/usr/share/vim/vim73/indent)
+fchdir() to previous dir
+line 14: sourcing "/usr/share/vim/vim73/indent/vim.vim"
+finished sourcing /usr/share/vim/vim73/indent/vim.vim
+continuing in function <SNR>9_LoadIndent
+Searching for "/usr/share/vim/vimfiles/after/indent/vim.vim"
+Searching for "/home/bradleyd/.vim/after/indent/vim.vim"
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+
+
+Writing viminfo file "/home/bradleyd/.viminfo"
