@@ -16,6 +16,7 @@
     ln -s ~/.dotfiles/.gemrc ~/.gemrc
     ln -s ~/.dotfiles/.irbrc ~/.irbrc
     ln -s ~/.dotfiles/.screenrc ~/.screenrc
+    ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 ## Switch to the `~/.dotfiles` directory, and fetch submodules:
 
